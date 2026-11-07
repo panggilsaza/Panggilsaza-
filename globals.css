@@ -1,0 +1,15 @@
+@import "tailwindcss";
+:root{color-scheme:light}
+body{margin:0;background:#f3f8ff;color:#17324d;font-family:Arial,Helvetica,sans-serif}
+.card{background:white;border:1px solid #dceafa;border-radius:14px;padding:20px;margin:18px 0;box-shadow:0 5px 18px #1c5a8a0d}
+.form{display:grid;gap:12px;max-width:620px}
+label{display:grid;gap:6px;font-weight:600}
+input,select,textarea{padding:11px;border:1px solid #bfd5eb;border-radius:8px;font:inherit}
+textarea{min-height:80px}
+button{background:#1766b2;color:white;border:0;border-radius:8px;padding:10px 15px;cursor:pointer;font-weight:700}
+button.secondary{background:#64748b}
+table th,table td{text-align:left;padding:10px;border-bottom:1px solid #e7eff8}
+.item{padding:14px 0;border-bottom:1px solid #e7eff8}
+.inline{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.notice{background:#eaf4ff;border-left:4px solid #2782cc;padding:12px;border-radius:7px}
+a{color:#1766b2}
